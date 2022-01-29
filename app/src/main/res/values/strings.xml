@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">HomeTaskAndroid_03_07</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="joshua_l_the_game_in_japan">joshua_l The game in Japan was amazing and I want to share some photos</string>
+    <string name="september_19">September 19</string>
+    <string name="following">Following</string>
+    <string name="karennne_liked_your_photo">karennne liked your photo.</string>
+    <string name="_1h">1h</string>
+    <string name="todo">TODO</string>
+    <string name="jacob_w">jacob_w</string>
+    <string name="_54">54</string>
+    <string name="_834">834</string>
+    <string name="_162">162</string>
+    <string name="posts">Posts</string>
+    <string name="followers">Followers</string>
+    <string name="jacob_west">Jacob West</string>
+    <string name="digital_goodies_designer">Digital goodies designer</string>
+    <string name="digital_goodies">Digital goodies designer <font color="#1A3E4C">@pixsellz</font> \nEverything is designed.</string>
+    <string name="edit_profile">Edit Profile</string>
+</resources>

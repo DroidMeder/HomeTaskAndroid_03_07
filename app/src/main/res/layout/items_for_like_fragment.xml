@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/border"
+    android:layout_marginBottom="16dp"
+    android:layout_height="58.08dp">
+
+    <ImageView
+        android:id="@+id/image_oval"
+        android:layout_width="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_height="42dp"
+        android:src="@drawable/ic_oval"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/textKaren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="@string/karennne_liked_your_photo"
+        android:textColor="@color/light_gray"
+        android:textSize="12sp"
+        android:fontFamily="@font/acme"
+        android:textFontWeight="400"
+        android:letterSpacing="-0.01"
+        android:lineHeight="16dp"
+        app:layout_constraintStart_toEndOf="@id/image_oval"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:targetApi="p" />
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="@string/_1h"
+        android:textSize="12sp"
+        android:fontFamily="@font/acme"
+        android:textFontWeight="400"
+        android:letterSpacing="-0.01"
+        android:lineHeight="16dp"
+        app:layout_constraintStart_toEndOf="@id/textKaren"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:targetApi="p" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="44dp"
+        android:layout_height="42dp"
+        android:contentDescription="@string/todo"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/panaram"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
